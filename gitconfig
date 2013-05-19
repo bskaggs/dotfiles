@@ -1,3 +1,12 @@
 [user]
-	name = Bradley Skaggs
-	email = bskaggs@cs.umd.edu
+  name = Bradley Skaggs
+  email = bskaggs@cs.umd.edu
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  excludesfile = ~/.gitignore
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
