@@ -6,7 +6,7 @@ backup=~/olddotfiles.$(date +"%Y%m%d%H%M%S")
 for src in ${dir}/!($(basename $0)|README.md); do
 	file=~/.$(basename "$src")
 	
-  if [ -L "$file" -a $(readlink "$file") == "$src" ]; then
+  if [ -L "$file" -a "$(readlink "$file")" == "$src" ]; then
     echo "Symlink $file already exists and is correct"
   else
     if [ -e "$file" ]; then

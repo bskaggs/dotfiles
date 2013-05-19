@@ -1,0 +1,6 @@
+alias ack='ack-grep'
+alias grep='grep --color=auto'
+alias ll='ls -lhG'
+alias ll.='ls -lahG'
+alias ls='ls --color=auto'
+alias scpresume='rsync --partial --progress --rsh=ssh'
