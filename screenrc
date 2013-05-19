@@ -1,0 +1,16 @@
+# ~/.screenrc
+
+# UTF stuff
+setenv LC_CTYPE en_US.UTF-8
+defutf8 on
+#stop vim from leaving stuff
+altscreen on
+crlf off
+# Obvious...
+startup_message off
+autodetach on
+vbell on
+# set a big scrolling buffer
+defscrollback 5000
+# Set the caption on the bottom line
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
